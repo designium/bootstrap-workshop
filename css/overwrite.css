@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Allerta);
+
+body {
+  padding-top: 60px;
+}
+
+@media (max-width: 980px) {
+  body {
+  padding-top: 0px;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-family: 'Allerta', sans-serif;
+}
+
+.problem-margin {
+  margin-bottom: 10px;
+}
+
+#myname {
+  color: red;
+}

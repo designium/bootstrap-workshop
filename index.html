@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/overwrite.css" rel="stylesheet">
+    <title>This is my Blog and I like it</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+      <!-- Navbar ================================================== -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="./index.html">My Blog</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="">
+                  <a href="./index.html">Home</a>
+                </li>
+                <li class="">
+                  <a href="#">Other Things</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+
+
+
+            <h1 class="">This is my Blog and I like it</h1>
+
+            <div class="well visible-phone">
+              You are using a smartphone.
+            </div>
+
+            <div class="well visible-tablet">
+              You are using a tablet.
+            </div>
+
+            <div class="well visible-desktop">
+              You are using a laptop.
+            </div>
+
+            <section class="row">
+                <aside class="span3">
+                    <ul class="unstyled">
+                      <li><h3>Categories</h3></li>
+                      <li><a href="#">Web Development</a></li>
+                      <li><a href="#">Friends</a></li>
+                      <li><a href="#">Writing</a></li>
+                      <li><a href="#">Others</a></li>
+                    </ul>
+
+                    <p>
+                      <a href="#" class="btn btn-large btn-success">This is a big button</a>
+                    </p>
+                </aside>
+
+                <div class="span9">
+                    <h3>Posts</h3>
+
+                    <article>
+                        <div class="row">
+                          <div class="span4">
+                            <h4>This is my first blog post </h4>
+                          </div>
+                          <div class="span4">
+                                <i class="icon-user"></i> blogger
+                                <i class="icon-time"></i> 01/10/2012
+                          </div>
+                        </div>
+
+                        <p> Once upon a time ...</p>
+                        <p>End of this blog post <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a></p>
+                        <p>
+                          <img src="http://www.acc.umu.se/~zqad/cats/1162648293-1162646365495.jpg" class="img-circle">
+                        </p>
+                        <section class="well">
+                            <div class="problem-margin" id="myname"><i class="icon-user"></i> Comments <span class="badge badge-warning">2</span></div>
+
+                            <article class="well">
+                              <div class="row">
+                                  <div class="span2">
+                                      <i class="icon-user"></i> Chimmy
+                                      <i class="icon-time"></i> 01/10/2012
+
+                                  </div>
+                                  <div class="span4">
+                                      I'm still not sure if I should use Twitter Bootstrap.
+                                  </div>
+                              </div>
+                            </article>
+
+                            <article class="well">
+                              <div class="row">
+                                  <div class="span2">
+                                      <i class="icon-user"></i> Chimmy
+                                      <i class="icon-time"></i> 01/10/2012
+
+                                  </div>
+                                  <div class="span4">
+                                      Maybe I will change my mind.
+                                  </div>
+                              </div>
+                            </article>
+
+                            <div>
+                                <form class="form">
+                                  <legend>Your Comment</legend>
+                                  <textarea rows="3"></textarea>
+                                  <br>
+                                  <button type="submit" class="btn">Submit</button>
+                                </form>
+                            </div>
+
+                        </section>
+                    </article>
+                </div>
+            </section>
+    </div>
+<div class="modal hide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+    <p><img src="http://www.acc.umu.se/~zqad/cats/1162648293-1162646365495.jpg" class="img-circle"></p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
